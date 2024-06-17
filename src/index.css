@@ -1,13 +1,71 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.product-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  background-color: #F6F5F8 ;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.product-image {
+  width: 100%;
+  height: auto;
 }
+
+.product-details h5 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product-subdetails p {
+  margin: 5px 0;
+}
+
+.product-price {
+  text-align: right;
+}
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quantity-control .quantity-display {
+  margin: 0 10px;
+  font-size: 1.2em;
+}
+
+.remove-button {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.heading{
+  margin-left: -200px;
+}
+
+.product-summary {
+  border-top: 1px solid #ddd;
+  margin-top: 20px;
+  background-color: #F6F5F8 ;
+  position: absolute;
+  margin-top:-1090px;
+  margin-left: 950px;
+  padding: 50px 10px 50px 10px;
+}
+
+.total h5 {
+  font-weight: bold;
+  margin-left: -200px;
+}
+
+.daily-cash {
+  color: orange;
+  font-weight: bold;
+  margin-left: 820px;
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+
